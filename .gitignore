@@ -1,0 +1,13 @@
+# 環境變數（每個人自己設定，不納入版控）
+.env
+
+# n8n 資料（本機 Docker volume）
+n8n_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
