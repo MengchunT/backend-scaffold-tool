@@ -1,10 +1,10 @@
-# 🛠️ Backend Scaffold Tool
+# Backend Scaffold Tool
 
 > 基於 n8n 的後端專案自動化開框工具，填寫表單即可在本機產生完整的 NestJS / Express / .NET 後端專案結構。
 
 ---
 
-## 📋 目錄
+## 目錄
 
 - [功能特色](#-功能特色)
 - [支援的技術棧](#-支援的技術棧)
@@ -17,19 +17,19 @@
 
 ---
 
-## ✨ 功能特色
+## 功能特色
 
-- 🎯 **表單驅動**：透過視覺化表單填寫需求，無需手動建立專案架構
-- ⚡ **一鍵產生**：自動建立完整的後端專案資料夾，包含所有必要檔案
-- 🔧 **技術棧彈性**：支援 TypeScript + NestJS / Express，以及 .NET Web API
-- 🗄️ **多資料庫支援**：MongoDB（native driver）、MSSQL / PostgreSQL / MySQL（Knex.js）
-- ✅ **多種驗證方式**：Joi、Zod、class-validator
-- 📁 **本機直接輸出**：產生的專案直接存放在指定的本機路徑
-- 🔄 **可共用**：透過 Docker Compose + `.env` 設定，團隊成員下載即可使用
+-  **表單驅動**：透過視覺化表單填寫需求，無需手動建立專案架構
+-  **一鍵產生**：自動建立完整的後端專案資料夾，包含所有必要檔案
+-  **技術棧彈性**：支援 TypeScript + NestJS / Express，以及 .NET Web API
+-  **多資料庫支援**：MongoDB（native driver）、MSSQL / PostgreSQL / MySQL（Knex.js）
+-  **多種驗證方式**：Joi、Zod、class-validator
+-  **本機直接輸出**：產生的專案直接存放在指定的本機路徑
+-  **可共用**：透過 Docker Compose + `.env` 設定，團隊成員下載即可使用
 
 ---
 
-## 🧱 支援的技術棧
+## 支援的技術棧
 
 | 語言 + 框架 | 驗證方式 | 資料庫 |
 |------------|---------|--------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 📁 專案結構
+## 專案結構
 
 ```
 backend-scaffold-tool/
@@ -53,7 +53,7 @@ backend-scaffold-tool/
 
 ---
 
-## 🚀 快速開始
+## 快速開始
 
 ### 前置需求
 
@@ -103,7 +103,7 @@ docker-compose up -d
 
 ---
 
-## ⚙️ 環境變數設定
+## 環境變數設定
 
 複製 `.env.example` 為 `.env` 並填入以下設定：
 
@@ -112,11 +112,11 @@ docker-compose up -d
 PROJECTS_PATH=C:\Users\YourName\Projects
 ```
 
-> ⚠️ `.env` 已加入 `.gitignore`，不會被推送到 GitHub，每個人在自己的電腦上設定即可。
+> `.env` 已加入 `.gitignore`，不會被推送到 GitHub，每個人在自己的電腦上設定即可。
 
 ---
 
-## 📝 使用方式
+## 使用方式
 
 **1. 開啟表單**
 
@@ -150,7 +150,7 @@ npm run start          # 自動編譯並啟動
 
 ---
 
-## 📂 產生的專案結構
+## 產生的專案結構
 
 以 **TypeScript + NestJS + MongoDB** 為例：
 
@@ -208,7 +208,7 @@ your-project/
 
 ---
 
-## 🔄 更新與維護
+## 更新與維護
 
 當 workflow 有更新時：
 
@@ -234,7 +234,7 @@ git pull
 
 ---
 
-## 🤝 貢獻
+## 貢獻
 
 歡迎提交 Issue 或 PR 來改善這個工具，常見的改善方向：
 
